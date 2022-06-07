@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E66B3230284F78CA0039AF9B /* Arch_DormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66B322F284F78CA0039AF9B /* Arch_DormApp.swift */; };
+		E66B3232284F78CA0039AF9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66B3231284F78CA0039AF9B /* ContentView.swift */; };
+		E66B3234284F78CE0039AF9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66B3233284F78CE0039AF9B /* Assets.xcassets */; };
+		E66B3237284F78CE0039AF9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66B3236284F78CE0039AF9B /* Preview Assets.xcassets */; };
+		E66B3241284F78CE0039AF9B /* Arch_DormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66B3240284F78CE0039AF9B /* Arch_DormTests.swift */; };
+		E66B324B284F78CE0039AF9B /* Arch_DormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66B324A284F78CE0039AF9B /* Arch_DormUITests.swift */; };
+		E66B324D284F78CE0039AF9B /* Arch_DormUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66B324C284F78CE0039AF9B /* Arch_DormUITestsLaunchTests.swift */; };
+		E66B325A284F82E00039AF9B /* splash_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66B3259284F82E00039AF9B /* splash_screen.swift */; };
+		E66B325E284F900F0039AF9B /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = E66B325D284F900F0039AF9B /* DesignSystem */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E66B323D284F78CE0039AF9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E66B3224284F78CA0039AF9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E66B322B284F78CA0039AF9B;
+			remoteInfo = Arch_Dorm;
+		};
+		E66B3247284F78CE0039AF9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E66B3224284F78CA0039AF9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E66B322B284F78CA0039AF9B;
+			remoteInfo = Arch_Dorm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E66B322C284F78CA0039AF9B /* Arch_Dorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arch_Dorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E66B322F284F78CA0039AF9B /* Arch_DormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arch_DormApp.swift; sourceTree = "<group>"; };
+		E66B3231284F78CA0039AF9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E66B3233284F78CE0039AF9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E66B3236284F78CE0039AF9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E66B323C284F78CE0039AF9B /* Arch_DormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Arch_DormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E66B3240284F78CE0039AF9B /* Arch_DormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arch_DormTests.swift; sourceTree = "<group>"; };
+		E66B3246284F78CE0039AF9B /* Arch_DormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Arch_DormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E66B324A284F78CE0039AF9B /* Arch_DormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arch_DormUITests.swift; sourceTree = "<group>"; };
+		E66B324C284F78CE0039AF9B /* Arch_DormUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arch_DormUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E66B3259284F82E00039AF9B /* splash_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash_screen.swift; sourceTree = "<group>"; };
+		E66B325B284F8F4F0039AF9B /* Source */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Source; path = ../../Source; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E66B3229284F78CA0039AF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66B325E284F900F0039AF9B /* DesignSystem in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E66B3239284F78CE0039AF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E66B3243284F78CE0039AF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E66B3223284F78CA0039AF9B = {
+			isa = PBXGroup;
+			children = (
+				E66B325B284F8F4F0039AF9B /* Source */,
+				E66B322E284F78CA0039AF9B /* Arch_Dorm */,
+				E66B323F284F78CE0039AF9B /* Arch_DormTests */,
+				E66B3249284F78CE0039AF9B /* Arch_DormUITests */,
+				E66B322D284F78CA0039AF9B /* Products */,
+				E66B325C284F900F0039AF9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E66B322D284F78CA0039AF9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E66B322C284F78CA0039AF9B /* Arch_Dorm.app */,
+				E66B323C284F78CE0039AF9B /* Arch_DormTests.xctest */,
+				E66B3246284F78CE0039AF9B /* Arch_DormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E66B322E284F78CA0039AF9B /* Arch_Dorm */ = {
+			isa = PBXGroup;
+			children = (
+				E66B322F284F78CA0039AF9B /* Arch_DormApp.swift */,
+				E66B3231284F78CA0039AF9B /* ContentView.swift */,
+				E66B3233284F78CE0039AF9B /* Assets.xcassets */,
+				E66B3235284F78CE0039AF9B /* Preview Content */,
+				E66B3259284F82E00039AF9B /* splash_screen.swift */,
+			);
+			path = Arch_Dorm;
+			sourceTree = "<group>";
+		};
+		E66B3235284F78CE0039AF9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E66B3236284F78CE0039AF9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E66B323F284F78CE0039AF9B /* Arch_DormTests */ = {
+			isa = PBXGroup;
+			children = (
+				E66B3240284F78CE0039AF9B /* Arch_DormTests.swift */,
+			);
+			path = Arch_DormTests;
+			sourceTree = "<group>";
+		};
+		E66B3249284F78CE0039AF9B /* Arch_DormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E66B324A284F78CE0039AF9B /* Arch_DormUITests.swift */,
+				E66B324C284F78CE0039AF9B /* Arch_DormUITestsLaunchTests.swift */,
+			);
+			path = Arch_DormUITests;
+			sourceTree = "<group>";
+		};
+		E66B325C284F900F0039AF9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E66B322B284F78CA0039AF9B /* Arch_Dorm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E66B3250284F78CE0039AF9B /* Build configuration list for PBXNativeTarget "Arch_Dorm" */;
+			buildPhases = (
+				E66B3228284F78CA0039AF9B /* Sources */,
+				E66B3229284F78CA0039AF9B /* Frameworks */,
+				E66B322A284F78CA0039AF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arch_Dorm;
+			packageProductDependencies = (
+				E66B325D284F900F0039AF9B /* DesignSystem */,
+			);
+			productName = Arch_Dorm;
+			productReference = E66B322C284F78CA0039AF9B /* Arch_Dorm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E66B323B284F78CE0039AF9B /* Arch_DormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E66B3253284F78CE0039AF9B /* Build configuration list for PBXNativeTarget "Arch_DormTests" */;
+			buildPhases = (
+				E66B3238284F78CE0039AF9B /* Sources */,
+				E66B3239284F78CE0039AF9B /* Frameworks */,
+				E66B323A284F78CE0039AF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E66B323E284F78CE0039AF9B /* PBXTargetDependency */,
+			);
+			name = Arch_DormTests;
+			productName = Arch_DormTests;
+			productReference = E66B323C284F78CE0039AF9B /* Arch_DormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E66B3245284F78CE0039AF9B /* Arch_DormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E66B3256284F78CE0039AF9B /* Build configuration list for PBXNativeTarget "Arch_DormUITests" */;
+			buildPhases = (
+				E66B3242284F78CE0039AF9B /* Sources */,
+				E66B3243284F78CE0039AF9B /* Frameworks */,
+				E66B3244284F78CE0039AF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E66B3248284F78CE0039AF9B /* PBXTargetDependency */,
+			);
+			name = Arch_DormUITests;
+			productName = Arch_DormUITests;
+			productReference = E66B3246284F78CE0039AF9B /* Arch_DormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E66B3224284F78CA0039AF9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E66B322B284F78CA0039AF9B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E66B323B284F78CE0039AF9B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E66B322B284F78CA0039AF9B;
+					};
+					E66B3245284F78CE0039AF9B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E66B322B284F78CA0039AF9B;
+					};
+				};
+			};
+			buildConfigurationList = E66B3227284F78CA0039AF9B /* Build configuration list for PBXProject "Arch_Dorm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E66B3223284F78CA0039AF9B;
+			productRefGroup = E66B322D284F78CA0039AF9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E66B322B284F78CA0039AF9B /* Arch_Dorm */,
+				E66B323B284F78CE0039AF9B /* Arch_DormTests */,
+				E66B3245284F78CE0039AF9B /* Arch_DormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E66B322A284F78CA0039AF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66B3237284F78CE0039AF9B /* Preview Assets.xcassets in Resources */,
+				E66B3234284F78CE0039AF9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E66B323A284F78CE0039AF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E66B3244284F78CE0039AF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E66B3228284F78CA0039AF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66B3232284F78CA0039AF9B /* ContentView.swift in Sources */,
+				E66B3230284F78CA0039AF9B /* Arch_DormApp.swift in Sources */,
+				E66B325A284F82E00039AF9B /* splash_screen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E66B3238284F78CE0039AF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66B3241284F78CE0039AF9B /* Arch_DormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E66B3242284F78CE0039AF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66B324D284F78CE0039AF9B /* Arch_DormUITestsLaunchTests.swift in Sources */,
+				E66B324B284F78CE0039AF9B /* Arch_DormUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E66B323E284F78CE0039AF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E66B322B284F78CA0039AF9B /* Arch_Dorm */;
+			targetProxy = E66B323D284F78CE0039AF9B /* PBXContainerItemProxy */;
+		};
+		E66B3248284F78CE0039AF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E66B322B284F78CA0039AF9B /* Arch_Dorm */;
+			targetProxy = E66B3247284F78CE0039AF9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E66B324E284F78CE0039AF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E66B324F284F78CE0039AF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E66B3251284F78CE0039AF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Arch_Dorm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Albert.Arch-Dorm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E66B3252284F78CE0039AF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Arch_Dorm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Albert.Arch-Dorm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E66B3254284F78CE0039AF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Albert.Arch-DormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arch_Dorm.app/Arch_Dorm";
+			};
+			name = Debug;
+		};
+		E66B3255284F78CE0039AF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Albert.Arch-DormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arch_Dorm.app/Arch_Dorm";
+			};
+			name = Release;
+		};
+		E66B3257284F78CE0039AF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Albert.Arch-DormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arch_Dorm;
+			};
+			name = Debug;
+		};
+		E66B3258284F78CE0039AF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Albert.Arch-DormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arch_Dorm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E66B3227284F78CA0039AF9B /* Build configuration list for PBXProject "Arch_Dorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E66B324E284F78CE0039AF9B /* Debug */,
+				E66B324F284F78CE0039AF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E66B3250284F78CE0039AF9B /* Build configuration list for PBXNativeTarget "Arch_Dorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E66B3251284F78CE0039AF9B /* Debug */,
+				E66B3252284F78CE0039AF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E66B3253284F78CE0039AF9B /* Build configuration list for PBXNativeTarget "Arch_DormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E66B3254284F78CE0039AF9B /* Debug */,
+				E66B3255284F78CE0039AF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E66B3256284F78CE0039AF9B /* Build configuration list for PBXNativeTarget "Arch_DormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E66B3257284F78CE0039AF9B /* Debug */,
+				E66B3258284F78CE0039AF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E66B325D284F900F0039AF9B /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E66B3224284F78CA0039AF9B /* Project object */;
+}
